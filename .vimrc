@@ -15,18 +15,18 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 " Base16 color
 Plugin 'chriskempson/base16-vim'
-" Gundo.vim
-Plugin 'sjl/gundo.vim'
 " vim-fugitive 
 Plugin 'tpope/vim-fugitive'
 " vim-airline 
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
 " vim-gitgutter
 Plugin 'airblade/vim-gitgutter'
 " emmet-vim
 Plugin 'mattn/emmet-vim'
 " NERDtree
 Plugin 'scrooloose/nerdtree'
+" NERDtree git plugin
+Plugin 'xuyuanp/nerdtree-git-plugin'
 " YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
 " Vim surround
@@ -35,6 +35,14 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 " Vimtex
 Plugin 'lervag/vimtex'
+" EasyMotion
+Plugin 'easymotion/vim-easymotion'
+" vim-multiple-cursors
+Plugin 'terryma/vim-multiple-cursors'
+" Indent Line
+Plugin 'yggdroot/indentline'
+" Auto Pairs
+Plugin 'jiangmiao/auto-pairs'
 
 " plugins end
 call vundle#end()
@@ -42,7 +50,7 @@ filetype plugin indent on
 
 " non-plugin config
 " set colorscheme
-colorscheme base16-materia
+colorscheme base16-mocha
 let base16colorspace=256
 " enable syntax
 syntax enable
